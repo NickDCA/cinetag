@@ -6,6 +6,7 @@ import { useFavoritoContext } from "contexts/Favoritos";
 
 function Favoritos() {
   const { favorito } = useFavoritoContext();
+
   return (
     <>
       <Banner imagem="favoritos" />
